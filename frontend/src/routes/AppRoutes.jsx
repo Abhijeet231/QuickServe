@@ -30,7 +30,7 @@ import CategoryManager from "@/pages/admin/CategoryManager.jsx";
 import CustomerOnlyRoutes from "./CustomerOnlyRoutes.jsx";
 import AdminOnlyRoute from "./AdminOnlyRoute.jsx";
 import ProviderOnlyRoute from "./ProviderOnly.jsx";
-import { NavbarShadCn } from "@/components/layout/NavbarShadCn.jsx";
+
 
 const router = createBrowserRouter([
   // Auth Pages
@@ -52,7 +52,7 @@ const router = createBrowserRouter([
       { path: "about", element: <About /> },
       { path: "services", element: <BrowseServices /> },
       { path: "services/:serviceId", element: <ServiceDetails /> },
-      { path: "newnavbar", element: <NavbarShadCn /> },
+      
 
       // Protected Pages
       {
