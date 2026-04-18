@@ -32,7 +32,7 @@ export default function DashboardC() {
   return (
     <div
       style={{ fontFamily: "'DM Sans', sans-serif" }}
-      className="min-h-screen bg-stone-50 p-6 md:p-10"
+      className="min-h-screen  p-6 md:p-10"
     >
       <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display&display=swap"
@@ -176,7 +176,7 @@ export default function DashboardC() {
           </div>
 
           {/* Active Bookings Container */}
-          <div className="bg-white rounded-2xl border border-stone-100 shadow-sm">
+          <div className="bg-white rounded-2xl border border-stone-100 shadow-sm p-5">
             {/* Header */}
             <div className="flex items-center justify-between px-6 py-5 border-b border-stone-100">
               <div className="flex items-center gap-2.5">

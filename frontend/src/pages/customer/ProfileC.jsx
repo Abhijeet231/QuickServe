@@ -62,7 +62,7 @@ const ProfileC = () => {
   },[user,reset])
 
   return (
-  <div className="min-h-screen bg-stone-50 flex items-start justify-center p-6">
+  <div className="min-h-screen flex items-start justify-center p-6">
     <div className="w-full max-w-md bg-white border border-stone-100 rounded-lg shadow-sm p-6">
 
       <h2 className="text-xl font-semibold text-stone-800 mb-6">

@@ -71,7 +71,7 @@ const BookingsC = () => {
   const canModify = ["requested", "confirmed"].includes(booking?.status);
 
   return (
-    <div className="min-h-screen bg-stone-50 p-4 sm:p-8">
+    <div className="min-h-screen  p-4 sm:p-8">
 
       <BookingDetailsCard
         address={booking?.address}

@@ -67,7 +67,7 @@ const BrowseServices = () => {
   }, [selectedCategory, searchQuery]);
 
   return (
-    <div className="min-h-screen bg-stone-50">
+    <div className="min-h-screen">
       <div className="max-w-7xl mx-auto px-4 py-10">
         {/* ── Page Title ── */}
         <div className="mb-8">
