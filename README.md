@@ -1,4 +1,4 @@
-# ServiceHub – Local Service Booking Platform
+# QuickServe – Local Service Booking Platform
 
 A full-stack local service booking platform that connects customers with local service professionals and manages the complete booking lifecycle.
 
