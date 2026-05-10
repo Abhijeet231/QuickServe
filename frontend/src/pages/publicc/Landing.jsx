@@ -54,7 +54,7 @@ const Landing = () => {
         {/* Illustration image*/}
         <div>
           <img
-            src="/public/landingimg.png"
+            src="/landingimg.png"
             alt="Illustration"
             className="w-full"
           />
