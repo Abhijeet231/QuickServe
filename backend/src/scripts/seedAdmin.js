@@ -1,3 +1,4 @@
+import "dotenv/config";
 import mongoose from "mongoose";
 import User from "../models/user.model.js";
 import bcrypt from "bcryptjs";
@@ -12,12 +13,10 @@ if(adminExists){
     process.exit()
 }
 
-const hashedPassword = await bcrypt.hash("admin444", 10)
-
 await User.create({
     name: "BigBoss",
     email: "bigboss01@servicele.com",
-    password: hashedPassword,
+    password: "admin444",
     city: "Bangalore",
     role: "admin"
 });

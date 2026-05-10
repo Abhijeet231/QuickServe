@@ -229,7 +229,7 @@ const DashboardP = () => {
       {/* RIGHT SIDE - BOOKINGS */}
       <div className="w-full lg:w-[60%] bg-white shadow-sm border border-stone-100 rounded-2xl overflow-hidden">
         {/* Amber top accent */}
-        <div className="h-1 w-full bg-gradient-to-r from-amber-300 via-amber-400 to-orange-300" />
+        <div className="h-1 w-full bg-linear-to-r from-amber-300 via-amber-400 to-orange-300" />
 
         <div className="p-6">
           <div className="flex items-center justify-between mb-5">
@@ -362,7 +362,7 @@ function InfoItem({ icon: Icon, value }) {
   return (
     <div className="flex items-start gap-2">
       <Icon className="w-3.5 h-3.5 text-stone-400 mt-0.5 shrink-0" />
-      <span className="text-xs text-stone-600 break-words">{value}</span>
+      <span className="text-xs text-stone-600 wrap-break-word">{value}</span>
     </div>
   );
 }
